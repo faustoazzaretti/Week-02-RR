@@ -50,3 +50,29 @@
     border-bottom: 5px solid black;
     box-sizing: border-box;
 }
+
+.regions{
+    width: 100%;
+    height: 50px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.8125rem;
+}
+
+.regions ul{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.regions ul li{
+    float: left;
+    margin-left: 25px;
+}
+
+.selected{
+    border-bottom: 3px solid brown;
+}
+
+.regions ul li:hover{
+    cursor: pointer;
+}
